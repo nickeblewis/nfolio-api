@@ -1,0 +1,2281 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ca8c6d9835730db9f6432ccb2ccbcee4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3abc29d1170290ae5623b7c2a9a3be26",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d81998ca822d772320fd6309dfdca231",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9f84467f990556aa2d70b8bd92b3edd3",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "967879ae045d4ebb30598dc77a628893",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6f00cfde1d51cc9fc352c9aff8158df9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-netlify": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-netlify",
+      "id": "Plugin gatsby-plugin-netlify",
+      "name": "gatsby-plugin-netlify",
+      "version": "1.0.21",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "1.0.21",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "01b2814daac6098fd619db959361dc76",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-next": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-react-next",
+      "id": "Plugin gatsby-plugin-react-next",
+      "name": "gatsby-plugin-react-next",
+      "version": "1.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-react-next",
+      "packageJson": {
+        "name": "gatsby-plugin-react-next",
+        "description": "Use React 16 with your Gatsby v1 site",
+        "version": "1.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "core-js",
+            "version": "^2.5.1"
+          },
+          {
+            "name": "react",
+            "version": "^16.0.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dc267cc3d80ae201772d1536db864d84",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f78200c88fffdcf38d9e012d5af61479",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.46",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.46",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "884993336d183551a110a148d13b6f46",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.26",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c244616125493acbfb7e74c65c9ddffc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5f1881443cb2fd7ed731193038dca04b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-nprogress": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-nprogress",
+      "id": "Plugin gatsby-plugin-nprogress",
+      "name": "gatsby-plugin-nprogress",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "color": "#c62828",
+        "showSpinner": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-nprogress",
+      "packageJson": {
+        "name": "gatsby-plugin-nprogress",
+        "description": "Shows page loading indicator when loading page resources is delayed",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews<mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "nprogress",
+            "version": "^0.2.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c666444c0cf475052a5f0aa6efb90c00",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-json": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-transformer-json",
+      "id": "Plugin gatsby-transformer-json",
+      "name": "gatsby-transformer-json",
+      "version": "1.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-transformer-json",
+      "packageJson": {
+        "name": "gatsby-transformer-json",
+        "description": "Gatsby transformer plugin for JSON files",
+        "version": "1.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "json"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5999a438535679b6cbb7117a18cd7522",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "data",
+        "path": "/Users/nicklewis/proj/gatsby-ecommerce-api/data"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1c063f4da4e9cc268ec360a025c79adb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-contentful": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-source-contentful",
+      "id": "Plugin gatsby-source-contentful",
+      "name": "gatsby-source-contentful",
+      "version": "1.3.52",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "setFieldsOnGraphQLNodeType",
+        "sourceNodes",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-source-contentful",
+      "packageJson": {
+        "name": "gatsby-source-contentful",
+        "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
+        "version": "1.3.52",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "gatsby-source-plugin"
+        ],
+        "author": "Marcus Ericsson <mericsson@gmail.com> (mericsson.com)",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "base64-img",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "contentful",
+            "version": "^6.1.0"
+          },
+          {
+            "name": "deep-map",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "json-stringify-safe",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "qs",
+            "version": "^6.4.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8ea45d07891519cfb8a7f264aa53dae2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.41",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.65",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 690
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-responsive-iframe",
+            "id": "Plugin gatsby-remark-responsive-iframe",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "1.4.19",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-prismjs",
+            "id": "Plugin gatsby-remark-prismjs",
+            "name": "gatsby-remark-prismjs",
+            "version": "2.0.3",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.35",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-smartypants",
+            "id": "Plugin gatsby-remark-smartypants",
+            "name": "gatsby-remark-smartypants",
+            "version": "1.4.12",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.41",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a1ee467f80a14625c9cb399daf60f849",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.65",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 690
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.65",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "421aa9e20ea3e36a43f57cc9a5dcf148",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-responsive-iframe": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-responsive-iframe",
+      "id": "Plugin gatsby-remark-responsive-iframe",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "1.4.19",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "1.4.19",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "504372aac0468a05c481e76626c6b4f6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-prismjs": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-prismjs",
+      "id": "Plugin gatsby-remark-prismjs",
+      "name": "gatsby-remark-prismjs",
+      "version": "2.0.3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "2.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "prismjs",
+            "version": "^1.13.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aaa4465fe7e91f7f2dace48cd40c00c5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.35",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.35",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bee3447ccdb90a69aa3a11ab625efb87",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-smartypants": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-smartypants",
+      "id": "Plugin gatsby-remark-smartypants",
+      "name": "gatsby-remark-smartypants",
+      "version": "1.4.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "1.4.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "retext",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8a34ac581a0e9ef02ffcc468a724f78c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-medium": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-source-medium",
+      "id": "Plugin gatsby-source-medium",
+      "name": "gatsby-source-medium",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "username": "sejal-suits"
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-source-medium",
+      "packageJson": {
+        "name": "gatsby-source-medium",
+        "description": "Gatsby source plugin for building websites using Medium as a data source",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Robert Vogt <robert@smartive.ch>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "axios",
+            "version": "^0.16.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7b8e3ce1ed4f83c7e67c7629c1a1233c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sitemap": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-sitemap",
+      "id": "Plugin gatsby-plugin-sitemap",
+      "name": "gatsby-plugin-sitemap",
+      "version": "1.2.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "1.2.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "minimatch",
+            "version": "^3.0.4"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8ab25c296e988939018151b2727b8689",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-manifest": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-manifest",
+      "id": "Plugin gatsby-plugin-manifest",
+      "name": "gatsby-plugin-manifest",
+      "version": "1.0.25",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Sejal Suits",
+        "short_name": "Sejal Suits",
+        "start_url": "https://www.sejalsuits.co.uk",
+        "background_color": "#e0e0e0",
+        "theme_color": "#c62828",
+        "display": "minimal-ui",
+        "icon": "./static/images/logo.png"
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.json to make sites progressive web apps",
+        "version": "1.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.json",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1169bb0e8eb63d6d7623dffb75b4c020",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-offline": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-offline",
+      "id": "Plugin gatsby-plugin-offline",
+      "name": "gatsby-plugin-offline",
+      "version": "1.0.18",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "1.0.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "sw-precache",
+            "version": "^5.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "2b6027f6149420274725504755dc4260",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/nicklewis/proj/gatsby-ecommerce-api",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "91011293aec8adf58232a23e8bbf9f53",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/nicklewis/proj/gatsby-ecommerce-api",
+      "packageJson": {
+        "name": "gatsbyjs-ecommerce",
+        "description": "Static E-commerce site built using GatsbyJs",
+        "version": "0.8.0",
+        "keywords": [
+          "npm",
+          "node",
+          "gatsbyjs",
+          "javascript",
+          "graphql",
+          "graphql",
+          "reactjs",
+          "boilerplate",
+          "ecommerce",
+          "static site"
+        ],
+        "author": "Parminder Klair",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "alertify.js",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "apollo-cache-inmemory",
+            "version": "^1.2.4"
+          },
+          {
+            "name": "apollo-cache-persist",
+            "version": "^0.1.1"
+          },
+          {
+            "name": "apollo-client",
+            "version": "^2.3.4"
+          },
+          {
+            "name": "apollo-link",
+            "version": "^1.2.2"
+          },
+          {
+            "name": "apollo-link-error",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "apollo-link-http",
+            "version": "^1.5.4"
+          },
+          {
+            "name": "apollo-link-state",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "cleave.js",
+            "version": "^1.3.7"
+          },
+          {
+            "name": "dotenv",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "formik",
+            "version": "^0.11.11"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.270"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.52"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.44"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^1.0.25"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "^1.0.21"
+          },
+          {
+            "name": "gatsby-plugin-nprogress",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^1.0.18"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-react-next",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^1.2.25"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.35"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.65"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^2.0.3"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^1.4.19"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^1.4.12"
+          },
+          {
+            "name": "gatsby-source-contentful",
+            "version": "^1.3.52"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.39"
+          },
+          {
+            "name": "gatsby-source-medium",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-transformer-json",
+            "version": "^1.0.20"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.41"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.26"
+          },
+          {
+            "name": "graphql-tag",
+            "version": "^2.9.2"
+          },
+          {
+            "name": "isomorphic-unfetch",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "moment",
+            "version": "^2.22.2"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.14.0"
+          },
+          {
+            "name": "randomstring",
+            "version": "^1.1.5"
+          },
+          {
+            "name": "react-accessible-accordion",
+            "version": "^2.4.2"
+          },
+          {
+            "name": "react-apollo",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "react-ga",
+            "version": "^2.5.3"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-image-gallery",
+            "version": "^0.8.8"
+          },
+          {
+            "name": "react-load-script",
+            "version": "^0.0.6"
+          },
+          {
+            "name": "react-share",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "react-spring",
+            "version": "^5.3.8"
+          },
+          {
+            "name": "react-truncate",
+            "version": "^2.3.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.3.2"
+          },
+          {
+            "name": "underscore",
+            "version": "^1.9.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "yup",
+            "version": "^0.24.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-eslint",
+            "version": "7"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^16.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.12.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.0.3"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.6.0"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.9.1"
+          },
+          {
+            "name": "prettier-eslint-cli",
+            "version": "^4.7.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4d8db7cb40b5cb27066eda368f67f35d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Sejal Suits",
+        "author": "Parminder Klair",
+        "description": "Latest Punjabi Traditional Suits",
+        "siteUrl": "https://www.sejalsuits.co.uk"
+      },
+      "port": 8001,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-03-14T16:30:25.272Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0bdfeca0db14f1942d30452849f44cbb",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/nicklewis/proj/gatsby-ecommerce-api/data absPath of file": {
+      "id": "/Users/nicklewis/proj/gatsby-ecommerce-api/data absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "472e190f1b6f24228e7e559c0a5821e4",
+        "type": "Directory",
+        "description": "Directory \"data\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/nicklewis/proj/gatsby-ecommerce-api/data",
+      "relativePath": "",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2019-03-14T16:29:26.715Z",
+      "accessTime": "2019-03-14T16:30:37.546Z",
+      "changeTime": "2019-03-14T16:29:26.715Z",
+      "birthTime": "2019-03-14T16:29:26.715Z",
+      "root": "/",
+      "dir": "/Users/nicklewis/proj/gatsby-ecommerce-api",
+      "base": "data",
+      "ext": "",
+      "name": "data",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8641809718,
+      "blocks": 0,
+      "atimeMs": 1552581037546.3062,
+      "mtimeMs": 1552580966714.911,
+      "ctimeMs": 1552580966714.911,
+      "birthtimeMs": 1552580966714.8164,
+      "atime": "2019-03-14T16:30:37.546Z",
+      "mtime": "2019-03-14T16:29:26.715Z",
+      "ctime": "2019-03-14T16:29:26.715Z",
+      "birthtime": "2019-03-14T16:29:26.715Z"
+    },
+    "/Users/nicklewis/proj/gatsby-ecommerce-api/data/currency.json absPath of file": {
+      "id": "/Users/nicklewis/proj/gatsby-ecommerce-api/data/currency.json absPath of file",
+      "children": [
+        "/Users/nicklewis/proj/gatsby-ecommerce-api/data/currency.json absPath of file >>> JSON"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "38811c4dc9378d507d9b4464e626eb99",
+        "mediaType": "application/json",
+        "type": "File",
+        "description": "File \"data/currency.json\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "data",
+      "absolutePath": "/Users/nicklewis/proj/gatsby-ecommerce-api/data/currency.json",
+      "relativePath": "currency.json",
+      "extension": "json",
+      "size": 84,
+      "prettySize": "84 B",
+      "modifiedTime": "2019-03-14T16:29:26.715Z",
+      "accessTime": "2019-03-14T16:30:15.431Z",
+      "changeTime": "2019-03-14T16:29:26.715Z",
+      "birthTime": "2019-03-14T16:29:26.715Z",
+      "root": "/",
+      "dir": "/Users/nicklewis/proj/gatsby-ecommerce-api/data",
+      "base": "currency.json",
+      "ext": ".json",
+      "name": "currency",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8641809719,
+      "blocks": 8,
+      "atimeMs": 1552581015430.718,
+      "mtimeMs": 1552580966714.9795,
+      "ctimeMs": 1552580966714.9795,
+      "birthtimeMs": 1552580966714.902,
+      "atime": "2019-03-14T16:30:15.431Z",
+      "mtime": "2019-03-14T16:29:26.715Z",
+      "ctime": "2019-03-14T16:29:26.715Z",
+      "birthtime": "2019-03-14T16:29:26.715Z"
+    },
+    "/Users/nicklewis/proj/gatsby-ecommerce-api/data/currency.json absPath of file >>> JSON": {
+      "GBP_CAD": {
+        "val": 1.763281
+      },
+      "GBP_INR": {
+        "val": 90.492674
+      },
+      "id": "/Users/nicklewis/proj/gatsby-ecommerce-api/data/currency.json absPath of file >>> JSON",
+      "children": [],
+      "parent": "/Users/nicklewis/proj/gatsby-ecommerce-api/data/currency.json absPath of file",
+      "internal": {
+        "contentDigest": "8b29a9f4656c5197a45e3f6808fca274",
+        "type": "DataJson",
+        "owner": "gatsby-transformer-json"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "65be5b037e9b836950828070aad928da"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}
